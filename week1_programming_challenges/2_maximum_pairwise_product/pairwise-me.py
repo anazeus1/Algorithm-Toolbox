@@ -10,7 +10,7 @@ t=[int(item)for item in input().split()]
 
 def maxpair(t,n):
     
-    Max1=0
+    Max1=5
     Max2=0
     for i in range (n):
         if t[i]>Max1:
